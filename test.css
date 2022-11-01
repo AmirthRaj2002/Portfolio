@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  transition: 0.5s ease;
+  text-align: left;
+  margin-right: 10px;
+}
+nav{
+ position: fixed;
+ width:100%;
+ line-height: 60px;
+}
+nav ul{
+  float: right;
+  margin: 0;
+  padding-right: 42px;
+
+}
+nav ul li{
+  display: inline-block;
+  padding: 16px 32px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+#c1{
+    width: 100%;
+    height: 100vh;
+   }
+   video{
+    width: 100%;
+    height: 650px;
+
+   }
+  #c1 h1 {
+    font-size: 100px;
+    font-weight: 900;
+  }
+  .text-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#000;
+    opacity: 1.5;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    mix-blend-mode: multiply;
+  }
+#two{
+  width: 100%;
+  height: 100vh;
+  background-image: url("lap2.jpg"),linear-gradient(#4f8497, #4d6781);
+  background-size: cover;
+  color: #119DA4;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#pic{
+  background-color: #F1DABF;
+  opacity: 0.5;
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+#propic{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-right: 20px;
+  opacity: 150%;
+}
+#pic:hover{
+  opacity: 1.0;
+  transition-duration: 2s;
+}
+#About{
+  transition-duration: 2s;
+}
+#About:hover{
+  background-color: #6BAA75;
+  color: #fff;
+  transition-duration: 2s;
+  
+}
+#portfolio{
+  background-color: rgba(0, 0, 0, 0.689);
+}
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  transition-duration: 1s;
+}
+.servicesText.card:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition-duration: 1s;
+  color: #000;
+}
+  
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+#contact{
+  background-color: #131212a7;
+  transition-duration: 2s;
+}
+.contact{
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
